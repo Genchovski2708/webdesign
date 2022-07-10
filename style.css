@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(white 28%, #676060 82%, #3a3939 4%) no-repeat;
+    height: 703px;
+}
+#content{
+    width: 1000px;
+    height: 600px;
+    margin: 50px auto 0 auto;
+    background: lightgray;
+}
+#menu{
+    width: 100%;
+    height: 50px;
+    background: gray;
+}
+#menu ul{
+    float:right;
+}
+#menu ul li{
+    width: 120px;
+    line-height: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top: -10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+#menu ul li:nth-of-type(2){
+    width: 150px;
+}
+#menu ul li:hover{
+    background: darkgray;
+}
+#menu ul li:last-of-type{
+    margin-right: 50px;
+}
+#menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Calibri, sans-serif;
+}
+#menu h1{
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 30px;
+    color: black;
+    margin-top: 5px;
+    margin-left: 50px;
+    font-weight: normal;
+}
+#here{
+    background: lightgray;
+}
+#about{
+    width: 70%;
+    height: 350px;
+    margin: 50px auto 0 auto;
+}
+#Profil{
+    height: 300px;
+    float: right;
+    margin-right: 20px;
+    border: 5px solid white;
+}
+#aboutUl{
+    height: 300px;
+    width: 250px;
+    margin-left: 20px;
+}
+#aboutUl li{
+    color: black;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    list-style-image: url("Sliki/listStyle.png");
+    margin-bottom: 15px;
+}
+#about h3{
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+}
+#about h2{
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+}
+#about p{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+}
+#social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 120px;
+    margin: auto;
+    background: #575656;
+    /* background: radial-gradient(gray, darkgray); */
+    background: radial-gradient(white 20%, gray 80%, #211d1d 5%);
+    border-radius: 50px;
+    border: 5px black inset;
+}
+#fb{
+    display: inline-block;
+    background-image: url("Sliki/fbLogo.png");
+    width: 100px;
+    height: 100px;
+}
+#tw{
+    display: inline-block;
+    background-image: url("Sliki/twLogo.png");
+    width: 100px;
+    height: 82px;
+}
+#in{
+    display: inline-block;
+    background-image: url("Sliki/inLogo.png");
+    width: 100px;
+    height: 100px;
+}
+.bio > div{
+    display: inline-block;
+    width: 400px;
+    text-align: justify;
+}
+#tekst img{
+    display: inline-block;
+    height: 100px;
+}
+#tekst img:first-of-type{
+    margin-right: 75px;
+}
+
+.bio #hobi{
+    width: 260px;
+    float: right;
+    margin-right: -15px;
+}
+.bio > *{
+    margin-top: -30px;
+}
+#tekst p{
+    font-size: 16px;
+}
+#hobi li{
+    list-style: none;
+    padding-left: 30px;
+    font-size: 18px;
+    margin-left: 15px;
+    display: inline-block;
+}
+#hobi p{
+    font-size: 16px;
+}
+#hobi a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#hobi img{
+    height: 100px;
+}
+#hobi li:first-of-type{
+    background-image: url("Sliki/book.png");
+    background-repeat: no-repeat;
+    margin-left: -40px;
+}
+#hobi li:nth-of-type(2){
+    background-image: url("Sliki/gaming.png");
+    background-repeat: no-repeat;
+}
+#hobi li:nth-of-type(3){
+    background-image: url("Sliki/chess.png");
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+#hobi li:nth-of-type(4){
+    background-image: url("Sliki/football.png");
+    background-repeat: no-repeat;
+    margin-left: 45px;
+}
+#hobies{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    justify-content: space-between;
+}
+.hobi{
+    width: 23%;
+    height: 250px;
+}
+.hobi:first-of-type img{
+    width: 70%;
+    margin-left: 15%;
+    border-bottom: green solid 2px;
+}
+.hobi h6{
+    font-size: 11px;
+    display: block;
+    width: 95%;
+    height: 145px;
+    margin-top: -2px;
+    margin-left: 2.5%;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+.hobi:nth-of-type(2) img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+    border-bottom: green solid 2px;
+}
+.hobi:nth-of-type(2) h6{
+    margin-top: 0;
+}
+.hobi:nth-of-type(2) h6 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.hobi:nth-of-type(3) img{
+    width: 56%;
+    margin-left: 22%;
+    margin-top: 5px;
+    border-bottom: green solid 2px;
+}
+.hobi:nth-of-type(4) img{
+    width: 54%;
+    margin-left: 23%;
+    margin-top: 5px;
+    border-bottom: green solid 2px;
+}
+.hobi:nth-of-type(4) h6{
+    margin-top: 5px;
+}
+
+
